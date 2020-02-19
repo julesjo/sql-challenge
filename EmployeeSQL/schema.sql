@@ -46,7 +46,7 @@ SELECT * FROM DepartmentManagers;
 -- Create salary table and view column datatypes
 CREATE TABLE Salary(
 	Emp_No INT,
-	Salary MONEY,
+	Salary INT,
 	From_Date DATE,
 	To_Date DATE,
 	FOREIGN KEY (Emp_No) REFERENCES Employees(Emp_No)
